@@ -6,6 +6,9 @@ Rails.application.routes.draw do
 
   get("/wizard_add",{ :controller => "math", :action => "add_results"})
 
+  get("/subtract",{ :controller => "math", :action => "subtraction"})
 
-  
+  get("/wizard_subtract",{ :controller => "math", :action => "subtract_results"})
+
+
 end
